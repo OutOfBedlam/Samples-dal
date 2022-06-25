@@ -1,3 +1,4 @@
+Sample code for usage of `https://github.com/upper/db`
 
 1. install postgres
 
