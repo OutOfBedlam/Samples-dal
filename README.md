@@ -14,3 +14,35 @@ docker run \
   postgres
 ```
 
+2. build
+
+```sh
+make
+```
+
+3. run
+
+```sh
+./tmp/sample-dal -h
+
+Usage: sample-dal <command>
+
+Flags:
+  -h, --help    Show context-sensitive help.
+
+Commands:
+  check-conn
+    connect test
+
+  create-schema
+    create tables
+
+  collections
+    list collections
+
+  select
+    select table
+
+Run "sample-dal <command> --help" for more information on a command.
+
+```
